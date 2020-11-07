@@ -1,0 +1,7 @@
+
+public class Constantes {
+
+	public static String[] sportAvailaible=["Tennis","Football","BasketBall"];
+			
+	
+}

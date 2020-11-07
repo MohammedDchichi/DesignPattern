@@ -1,0 +1,10 @@
+
+public class BasketBall implements ISport {
+
+	@Override
+	public void getInfoSport() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

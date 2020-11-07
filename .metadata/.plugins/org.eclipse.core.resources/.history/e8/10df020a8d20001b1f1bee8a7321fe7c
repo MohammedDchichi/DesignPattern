@@ -1,0 +1,12 @@
+
+public class FootBall implements ISport {
+
+	@Override
+	public void getInfoSport() {
+		
+		System.out.println("---------------FootBall---------------");
+		
+
+	}
+
+}

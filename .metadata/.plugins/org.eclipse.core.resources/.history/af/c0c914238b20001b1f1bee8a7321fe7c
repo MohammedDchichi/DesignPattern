@@ -1,0 +1,25 @@
+
+public class Context {
+	
+	
+	private ISport ispSport;
+	
+
+	
+	
+	public Context() {
+		super();
+		this.ispSport=new FootBall();
+	}
+
+	public void setIspSport(ISport ispSport) {
+		this.ispSport = ispSport;
+	}
+	
+	public void excute() {
+		
+		ispSport.getInfoSport();
+	}
+	
+
+}

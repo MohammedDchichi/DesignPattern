@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class App {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		
+		Context context=new Context();
+		String sportName=null;
+		System.out.println("------Welcome to APP For Know the info for Sports-----------");
+
+		
+		do {
+			System.out.println("------Enter name for sport----------");
+			Scanner scanner = new Scanner(System.in);
+			sportName=scanner.nextLine();
+			ISport sport=(ISport) Class.forName(sportName).newInstance();
+			context.setIspSport(sport);
+			context.excute();
+			
+		}while(sportName.equals("end"));
+		
+
+	}
+
+}
